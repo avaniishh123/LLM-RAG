@@ -168,7 +168,8 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 Here are some example screenshots of the Swagger UI and responses:
 
-![Swagger UI](sample_requests/screenshot_1.png)
+![image](https://github.com/user-attachments/assets/cbc86325-d100-4b66-8869-d5caa77f5b3f)
+
 
 ---
 
