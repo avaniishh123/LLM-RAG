@@ -1,0 +1,5 @@
+fastapi
+uvicorn
+faiss-cpu
+psutil
+sentence-transformers
