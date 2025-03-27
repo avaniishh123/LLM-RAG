@@ -1,0 +1,5 @@
+{
+    "name": "say_hello",
+    "code": "return 'Hello from your automation assistant!'"
+  }
+  
