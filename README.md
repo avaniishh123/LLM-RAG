@@ -158,12 +158,6 @@ The system logs each function execution for monitoring purposes. Logs are saved 
 
 ---
 
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
----
-
 ## Screenshots
 
 Here are some example screenshots of the Swagger UI and responses:
