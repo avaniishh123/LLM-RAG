@@ -170,7 +170,6 @@ Here are some example screenshots of the Swagger UI and responses:
 
 ![image](https://github.com/user-attachments/assets/cbc86325-d100-4b66-8869-d5caa77f5b3f)
 
+![sample-request-3-screenshot](https://github.com/user-attachments/assets/316f36d9-c47d-4fae-89c4-20998fd176c5)
 
----
-
-Let me know if you need any further details, adjustments, or additional sections! 😄
+![sample_request-2 - screenshot](https://github.com/user-attachments/assets/2b36dca0-e6d8-4434-a810-e16fb121a493)
