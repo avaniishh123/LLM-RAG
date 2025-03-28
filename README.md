@@ -167,3 +167,8 @@ Here are some example screenshots of the Swagger UI and responses:
 ![sample-request-3-screenshot](https://github.com/user-attachments/assets/316f36d9-c47d-4fae-89c4-20998fd176c5)
 
 ![sample_request-2 - screenshot](https://github.com/user-attachments/assets/2b36dca0-e6d8-4434-a810-e16fb121a493)
+
+
+## Demo Video 
+
+https://drive.google.com/file/d/1i7nIA98TVQosIEeiAXKAqY3z_ZvnD71t/view?usp=sharing
