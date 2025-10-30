@@ -1,0 +1,26 @@
+2025-10-21 09:53:08,551 - llm_rag_system - INFO - Created approval request 06298c00-a5e7-4f1c-9f0f-5f86ca061252 with risk level low and approval level standard
+2025-10-21 09:53:08,551 - llm_rag_system - INFO - Created approval request 19a7f69f-7d98-4d35-80c9-dd9ba9dc6abd with risk level low and approval level standard
+2025-10-21 09:53:08,551 - llm_rag_system - INFO - Approval from None for request 06298c00-a5e7-4f1c-9f0f-5f86ca061252: partial_approval (0/1 approvers)
+2025-10-21 09:53:08,551 - llm_rag_system - INFO - Rejected request 19a7f69f-7d98-4d35-80c9-dd9ba9dc6abd
+2025-10-21 09:53:08,570 - llm_rag_system - INFO - Created approval request d0b2d5b9-e189-43b6-afab-7292ad7c9310 with risk level low and approval level standard
+2025-10-21 09:53:08,624 - llm_rag_system - INFO - Approval from approver_user for request d0b2d5b9-e189-43b6-afab-7292ad7c9310: approved (1/1 approvers)
+2025-10-21 09:53:08,631 - llm_rag_system - INFO - Created approval request 5e674aeb-76bd-4de6-b349-e442b1784854 with risk level low and approval level standard
+2025-10-21 09:53:08,631 - llm_rag_system - INFO - Approval from approver for request 5e674aeb-76bd-4de6-b349-e442b1784854: approved (1/1 approvers)
+2025-10-21 09:53:08,636 - llm_rag_system - INFO - Created approval request 7af1e1bf-4663-4d63-a65c-4842930c50dc with risk level low and approval level standard
+2025-10-21 09:53:08,638 - llm_rag_system - INFO - Cancelled request 7af1e1bf-4663-4d63-a65c-4842930c50dc
+2025-10-21 09:53:08,644 - llm_rag_system - INFO - Created approval request fd06886d-2549-494d-9cfe-d3100126835d with risk level low and approval level standard
+2025-10-21 09:53:08,656 - llm_rag_system - INFO - Created approval request 0a3fcd38-434b-472f-bbbf-4e3b74810b84 with risk level low and approval level standard
+2025-10-21 09:53:08,656 - llm_rag_system - INFO - Created approval request f550b9df-7285-4469-ab90-3a83874c0e14 with risk level low and approval level standard
+2025-10-21 09:53:08,661 - llm_rag_system - INFO - Created approval request a03eaacf-36f9-44fa-a237-de872a6950d4 with risk level low and approval level standard
+2025-10-21 09:53:08,661 - llm_rag_system - INFO - Logged execution result for request a03eaacf-36f9-44fa-a237-de872a6950d4: success
+2025-10-21 09:53:08,665 - llm_rag_system - INFO - Created approval request a91f8366-d342-44c5-93ee-03ca50b11669 with risk level low and approval level standard
+2025-10-21 09:53:08,665 - llm_rag_system - INFO - Rejected request a91f8366-d342-44c5-93ee-03ca50b11669
+2025-10-21 09:53:08,673 - llm_rag_system - ERROR - Failed to load audit log: 'ConfigManager' object has no attribute 'get_logs_directory'
+2025-10-21 09:53:08,677 - llm_rag_system - INFO - Created approval request 00c6104f-7aea-4041-950c-9c3b5f28b56e with risk level low and approval level standard
+2025-10-21 09:53:08,678 - llm_rag_system - INFO - Approval from modifier_user for request 00c6104f-7aea-4041-950c-9c3b5f28b56e: modified (1/1 approvers)
+2025-10-21 09:53:08,678 - llm_rag_system - INFO - Created approval request f88b2862-d2eb-4160-bc2a-ad9edd22fd54 with risk level high and approval level elevated
+2025-10-21 09:53:08,683 - llm_rag_system - INFO - Approval from admin_user for request f88b2862-d2eb-4160-bc2a-ad9edd22fd54: approved (1/1 approvers)
+2025-10-21 09:54:10,960 - llm_rag_system - INFO - Created approval request 2319f09e-e618-4d6a-8fed-932d350bbe5b with risk level low and approval level standard
+2025-10-21 09:54:10,960 - llm_rag_system - INFO - Created approval request 943efbad-d9a6-4273-baaa-6703f66d5114 with risk level low and approval level standard
+2025-10-21 09:54:10,969 - llm_rag_system - INFO - Approval from approver1 for request 2319f09e-e618-4d6a-8fed-932d350bbe5b: approved (1/1 approvers)
+2025-10-21 09:54:10,969 - llm_rag_system - INFO - Rejected request 943efbad-d9a6-4273-baaa-6703f66d5114

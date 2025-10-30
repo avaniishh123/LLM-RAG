@@ -1,0 +1,33 @@
+2025-10-20 12:04:49,086 - content_generator - INFO - ContentGenerator initialized successfully
+2025-10-20 12:04:49,095 - content_generator - INFO - ContentGenerator initialized successfully
+2025-10-20 12:04:49,095 - content_generator - INFO - Generating 1 email for generic
+2025-10-20 12:04:49,095 - content_generator - INFO - Generated content 1/1 (6 words, 33 chars)
+2025-10-20 12:04:49,095 - content_generator - INFO - Successfully generated 1/1 content pieces
+2025-10-20 12:04:49,099 - content_generator - INFO - ContentGenerator initialized successfully
+2025-10-20 12:04:49,101 - content_generator - INFO - Generating 1 social_post for twitter
+2025-10-20 12:04:49,101 - content_generator - INFO - Generated content 1/1 (6 words, 33 chars)
+2025-10-20 12:04:49,101 - content_generator - INFO - Successfully generated 1/1 content pieces
+2025-10-20 12:04:49,105 - content_generator - INFO - ContentGenerator initialized successfully
+2025-10-20 12:04:49,105 - content_generator - INFO - Generating 2 variations of content (tone)
+2025-10-20 12:04:49,105 - content_generator - INFO - Generated variation 1/2
+2025-10-20 12:04:49,608 - content_generator - INFO - Generated variation 2/2
+2025-10-20 12:04:49,608 - content_generator - INFO - Successfully generated 2/2 variations
+2025-10-20 12:04:49,608 - content_generator - INFO - ContentGenerator initialized successfully
+2025-10-20 12:04:49,608 - content_generator - INFO - Content scheduled for 2024-12-25 10:00:00 on twitter
+2025-10-20 12:11:02,980 - content_generator - INFO - ContentGenerator initialized successfully
+2025-10-20 12:11:02,991 - content_generator - INFO - ContentGenerator initialized successfully
+2025-10-20 12:11:02,991 - content_generator - INFO - Generating 1 email for generic
+2025-10-20 12:11:02,991 - content_generator - INFO - Generated content 1/1 (6 words, 33 chars)
+2025-10-20 12:11:02,991 - content_generator - INFO - Successfully generated 1/1 content pieces
+2025-10-20 12:11:03,000 - content_generator - INFO - ContentGenerator initialized successfully
+2025-10-20 12:11:03,000 - content_generator - INFO - Generating 1 social_post for twitter
+2025-10-20 12:11:03,000 - content_generator - INFO - Generated content 1/1 (6 words, 33 chars)
+2025-10-20 12:11:03,004 - content_generator - INFO - Successfully generated 1/1 content pieces
+2025-10-20 12:11:03,008 - content_generator - INFO - ContentGenerator initialized successfully
+2025-10-20 12:11:03,008 - content_generator - INFO - Generating 2 variations of content (tone)
+2025-10-20 12:11:03,008 - content_generator - INFO - Generated variation 1/2
+2025-10-20 12:11:03,509 - content_generator - INFO - Generated variation 2/2
+2025-10-20 12:11:03,510 - content_generator - INFO - Successfully generated 2/2 variations
+2025-10-20 12:11:03,514 - content_generator - INFO - ContentGenerator initialized successfully
+2025-10-20 12:11:03,515 - content_generator - INFO - Content scheduled for 2024-12-25 10:00:00 on twitter
+2025-10-20 12:24:40,028 - content_generator - INFO - ContentGenerator initialized successfully
