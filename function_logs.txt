@@ -1,0 +1,19 @@
+[2025-03-26 20:27:51.562916] Session: user2 | Prompt: Get CPU usage | Function: get_cpu_usage | Result: CPU Usage: 0.0%
+[2025-03-26 21:16:55.824622] Session: user2 | Prompt: get_cpu_usage | Function: get_cpu_usage | Result: CPU Usage: 37.1%
+[2025-03-26 21:17:19.738596] Session: user3 | Prompt: get_memory_usage | Function: get_memory_usage | Result: Memory Usage: 52.7% (10651MB used of 20222MB)
+[2025-03-26 21:17:46.951234] Session: user3 | Prompt: run_shell_command_from_prompt | Function: get_memory_usage | Result: Memory Usage: 52.8% (10686MB used of 20222MB)
+[2025-03-26 21:17:50.632532] Session: user3 | Prompt: run_shell_command_from_prompt | Function: get_memory_usage | Result: Memory Usage: 52.8% (10682MB used of 20222MB)
+[2025-03-26 21:18:00.531471] Session: user3 | Prompt: run_shell_command_from_prompt | Function: get_memory_usage | Result: Memory Usage: 52.8% (10687MB used of 20222MB)
+[2025-03-26 21:21:55.573434] Session: shell1 | Prompt: Run dir | Function: run_shell_command_from_prompt | Result: Command failed: 
+[2025-03-26 21:22:09.439547] Session: shell2 | Prompt: Run ipconfig | Function: run_shell_command_from_prompt | Result: Command failed: 
+[2025-03-26 21:24:02.458075] Session: shell2 | Prompt: Run ipconfig | Function: run_shell_command_from_prompt | Result: Command failed: 
+[2025-03-26 21:24:13.277114] Session: shell3 | Prompt: Run echo Hello World | Function: run_shell_command_from_prompt | Result: Command failed: 
+[2025-03-27 19:55:51.016152] Session: shell123 | Prompt: Run echo Hello World | Function: run_shell_command_from_prompt | Result: Command failed: 
+[2025-03-27 19:56:01.601164] Session: app123 | Prompt: Open paint | Function: open_paint | Result: [WinError 2] The system cannot find the file specified
+[2025-03-27 20:11:41.440429] Session: shell123 | Prompt: Run echo Hello World | Function: run_shell_command_from_prompt | Result: Command failed: 
+[2025-03-27 20:11:49.802107] Session: app123 | Prompt: Open paint | Function: open_paint | Result: [WinError 2] The system cannot find the file specified
+[2025-03-27 20:23:20.108429] Session: fun123 | Prompt: Tell me a joke | Function: random_joke | Result: Debugging: Being the detective in a crime movie where you are also the murderer.
+[2025-03-27 20:30:46.468546] Session: fun123 | Prompt: Tell me a joke | Function: random_joke | Result: Debugging: Being the detective in a crime movie where you are also the murderer.
+[2025-03-27 20:55:15.350427] Session: clock123 | Prompt: What's the current time? | Function: say_time | Result: Current time is 20:55:15
+[2025-03-27 20:55:22.081659] Session: funny456 | Prompt: Tell me a joke | Function: random_joke | Result: Debugging: Being the detective in a crime movie where you are also the murderer.
+[2025-03-27 20:55:33.781732] Session: info789 | Prompt: Check CPU usage | Function: get_cpu_usage | Result: CPU Usage: 40.4%

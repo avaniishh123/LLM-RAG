@@ -1,0 +1,5 @@
+{
+    "name": "get_os_info",
+    "code": "import os\\nreturn 'Operating System: ' + os.name"
+  }
+  
