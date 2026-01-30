@@ -45,6 +45,8 @@ You can paste this **directly under an “Architecture” section** in your GitH
 
 The system follows a **Retrieval-Augmented Generation (RAG)** architecture to convert **natural-language user queries** into **executable automation code** in a safe and controlled manner.
 
+<img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/f8d48f28-ca14-47ff-93c0-09ded01b3862" />
+
 ### 🔹 Workflow Overview
 
 1. **Knowledge Preparation**
@@ -74,10 +76,172 @@ The system follows a **Retrieval-Augmented Generation (RAG)** architecture to co
 * Ensures **safe and transparent code execution**
 * Scales easily by adding new functions to the RAG knowledge base
 
-<img width="481" height="297" alt="image" src="https://github.com/user-attachments/assets/ce4dfae2-e1de-48fd-8697-230d1a215ade" /> <img width="483" height="315" alt="image" src="https://github.com/user-attachments/assets/940608bc-3d57-4a41-9bda-f64bbbef5ad0" />
+📸 Visual Results & UI Demonstration
+
+This section demonstrates how the LLM-RAG Automation System transforms natural-language queries into executable code and real system actions through an interactive API interface.
+
+🔹 1. LLM-RAG API Interface
+
+<img width="1234" height="950" alt="image" src="https://github.com/user-attachments/assets/14aa2c36-5c34-448b-b649-3f74ab418835" />
 
 
+The main interface allows users to:
 
+Enter natural-language queries
+
+Use quick-action prompts (e.g., CPU usage, memory usage, open apps)
+
+Execute queries with a single click
+
+The UI clearly separates:
+
+Generated Code (left panel)
+
+Execution Result (right panel)
+
+This ensures transparency and trust in LLM-driven automation.
+
+🔹 2. System Monitoring Automation (CPU Usage)
+
+<img width="1358" height="644" alt="image" src="https://github.com/user-attachments/assets/ee7581ae-e52b-46e5-80f9-1c2ca7aa5923" />
+
+
+When the user submits a query like “get cpu usage”:
+
+The RAG pipeline retrieves the correct system function
+
+The LLM generates valid Python code using psutil
+
+The execution engine runs the code safely
+
+The real-time CPU usage is displayed in the result panel
+
+This showcases live system interaction, not simulated responses.
+
+🔹 3. Memory Usage Automation
+
+<img width="1358" height="644" alt="image" src="https://github.com/user-attachments/assets/b45af185-a670-4b1d-8cdf-47dd2e06945d" />
+
+
+For queries such as “get memory usage”:
+
+The system generates structured Python code
+
+Reports total, used, and available memory
+
+Displays results in a human-readable format
+
+This demonstrates accurate resource monitoring via natural language.
+
+🔹 4. Real-World Automation (Job Search Example)
+
+For higher-level queries like “give me jobs in Hyderabad in real life”:
+
+The system retrieves relevant automation templates
+
+Generates web-scraping / data-processing code
+
+Executes the workflow
+
+Displays extracted job listings
+
+Exports results to CSV and JSON files
+
+This highlights the system’s ability to handle multi-step, real-world automation tasks.
+
+<img width="1358" height="644" alt="image" src="https://github.com/user-attachments/assets/5f480be7-0d89-4600-9292-2d8ee9f4b1bc" />
+
+
+✅ Key Takeaways from Visual Results
+
+Natural language → executable automation
+
+Transparent code generation (no black box)
+
+Safe execution with real outputs
+
+Supports both system-level and application-level tasks
+
+Scales from simple commands to complex workflows
+
+These visual results validate the system as a practical LLM-RAG automation platform, not just a chatbot.
+
+📸 API Visual Results & Demonstration
+
+Here’s a **concise, GitHub-README–ready “API Visual Results Explanation”** that explains **all the screenshots together**, clearly and professionally, without going too deep.
+
+You can paste this directly under a **“API Demonstration / Visual Results”** section.
+
+---
+
+## 📸 API Visual Results & Demonstration
+
+These demonstrate how the **LLM-RAG Automation System** works end-to-end through its REST API using the **FastAPI Swagger UI**.
+
+---
+
+### 🔹 1. Function Retrieval & Code Generation (`/execute`)
+
+<img width="923" height="396" alt="image" src="https://github.com/user-attachments/assets/2ff66ad1-2a38-4b14-8723-9343199edb94" />
+
+The first response shows the `/execute` endpoint in action:
+
+* The system retrieves the most relevant function (`random_joke`) using RAG.
+* The LLM dynamically generates **executable Python code**.
+* The response returns both:
+
+  * Selected function name
+  * Generated code (fully transparent)
+
+This validates that the system performs **retrieval + generation**, not hard-coded execution.
+
+---
+
+### 🔹 2. Dynamic Function Registration (`/add_function`)
+
+<img width="1788" height="649" alt="image" src="https://github.com/user-attachments/assets/a040931f-81c5-454c-a30a-a52c34d52418" />
+
+
+The `/add_function` endpoint demonstrates **runtime extensibility**:
+
+* A new function (`say_os`) is added via API.
+* The function is automatically **indexed into the vector database**.
+* A success message confirms availability for future queries.
+
+This proves the system can **grow its automation capabilities without redeployment or retraining**.
+
+---
+
+### 🔹 3. Retrieval + Execution Pipeline (`/execute_and_run`)
+
+<img width="911" height="727" alt="image" src="https://github.com/user-attachments/assets/91740cc2-744c-4ef0-8033-ce60b6cfc0db" />
+
+
+The `/execute_and_run` endpoint shows the complete pipeline:
+
+* Function retrieval (`say_time`)
+* Code generation
+* Safe execution
+* Real output returned (`Current time is 14:53:15`)
+
+The response includes:
+
+* Generated code
+* Execution result
+* HTTP 200 success confirmation
+
+This confirms **real system interaction**, not simulated outputs.
+
+---
+
+## ✅ Key Takeaways from API Results
+
+* Natural language → function retrieval → code generation → execution
+* Fully transparent LLM behavior (code is visible)
+* Runtime-extensible automation via API
+* Secure, production-ready FastAPI interface
+
+These results validate the system as a **practical LLM-RAG automation platform**, capable of powering real-world applications beyond chatbots.
 
 ## 🛠️ Tech Stack
 
@@ -87,17 +251,23 @@ The system follows a **Retrieval-Augmented Generation (RAG)** architecture to co
 - **Database**: PostgreSQL(Cloud)
 - **Execution**: Python subprocess (sandboxed)
 
+## 🎥 Demo Video
+
+▶️ https://drive.google.com/file/d/1rppTtUJz0tXGZt95PRyjaP7JH1Hb9mhL/view
+
+
+## 👨‍💻 Contributors
+
+* **Avanish Cowkur** – System architecture, RAG pipeline, execution engine
+* **Rishi Kuimil Nambiar** – Backend integration, API logic
+* **Rohan Kuimil Nambiar** – Testing, validation, documentation
+
 ---
 
-## 🚀 Installation & Setup
+## 📌 Use Cases
 
-### Prerequisites
-- Python 3.7+
-- Git
+* System monitoring via natural language
+* Developer productivity automation
+* Research and data extraction workflows
+* Safe LLM-driven task execution
 
-### Run Locally
-
-```bash
-git clone https://github.com/avaniishh123/LLM-RAG.git
-cd LLM-RAG
-python -m venv venv
