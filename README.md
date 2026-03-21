@@ -34,13 +34,6 @@ Instead of responding with text only, the system **retrieves the most relevant p
 
 ---
 
-Got it 👍 — here’s a **clean, concise, README-perfect architecture explanation**.
-It’s **brief**, **clear**, and still **technically impressive**.
-
-You can paste this **directly under an “Architecture” section** in your GitHub README.
-
----
-
 ## 🏗️ System Architecture (Brief)
 
 The system follows a **Retrieval-Augmented Generation (RAG)** architecture to convert **natural-language user queries** into **executable automation code** in a safe and controlled manner.
