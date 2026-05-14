@@ -255,7 +255,12 @@ These results validate the system as a **practical LLM-RAG automation platform**
 * **Rishi Kuimil Nambiar** – Backend integration, API logic
 * **Rohan Kuimil Nambiar** – Testing, validation, documentation
 
----
+## 📝 Research Paper
+
+[LLM-RAG REPORT (5).pdf](https://github.com/user-attachments/files/27763716/LLM-RAG.REPORT.5.pdf)
+
+
+
 
 ## 📌 Use Cases
 
